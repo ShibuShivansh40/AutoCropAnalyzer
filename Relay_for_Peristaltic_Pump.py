@@ -14,3 +14,10 @@ sleep(10)
 #The below is added to switch the relay off
 GPIO.output(positive1, GPIO.LOW)  
 sleep(1)
+
+
+"""
+Description about the pins on which excution is done
+1. Negative Pin is added to the Ground.
+2. Positive Pin is added to the GPiO Pin Number 21.
+"""
